@@ -5,7 +5,7 @@ from tkinter import ttk
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Cimbom.com123",
+    password="###",
     database="testdb"
 )
 mycursor = mydb.cursor()
